@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # 3rd party
     'accounts',
     'profiles',
+    'events',
 ]
 
 MIDDLEWARE = [
