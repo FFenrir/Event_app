@@ -6,5 +6,7 @@ from .models import Event
 
 class EventSerializer(serializers.ModelSerializer):
 
-    model = Event
-    fields = '__all__'
+    class Meta:
+
+        model = Event
+        fields = '__all__'
